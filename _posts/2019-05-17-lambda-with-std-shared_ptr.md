@@ -1,6 +1,5 @@
 ---
 published: true
-layout: post
 title: 'Используем std::shared_ptr - это же модно!'
 ---
 
