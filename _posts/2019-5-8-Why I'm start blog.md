@@ -1,5 +1,5 @@
 ---
-layout: post
+published: true
 title: Почему я начал вести блог?
 ---
 
