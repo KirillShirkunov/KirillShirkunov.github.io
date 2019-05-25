@@ -1,12 +1,13 @@
 ---
 title: `О проекте`
 published: true
-layout: single
+layout: home
+author_profile: true
 ---
 
 Ширкунов Кирилл, разработчик ПО, тимлид
 
-layout: archive
+layout: home
 layout: archive
 
 test default 
