@@ -1,6 +1,6 @@
 ---
-title: `About`
-permalink: /about/
+title: `О проекте`
+published: true
 ---
 
 Ширкунов Кирилл, разработчик ПО, тимлид
