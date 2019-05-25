@@ -2,6 +2,7 @@
 title: 'О проекте'
 published: true
 author_profile: true
+layout: single
 ---
 
 Ширкунов Кирилл, разработчик ПО, тимлид
