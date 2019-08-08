@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'QWebEngineCallback - еще один способ изощренного отстрела ноги'
 ---
 
