@@ -104,7 +104,7 @@ namespace std
 ```
 
 Все довольно просто, но почему в MSVC есть дополнительный конструктор, принимающий `const char * msg`?
-Вспоминаю о чудном ~~(ставьте ударение куда хотите)~~ ресурсе [msdn](https://docs.microsoft.com/en-us/cpp/standard-library/exception-class?view=vs-2019):
+Вспоминаю о чудном ~~(ставьте ударение куда хотите)~~ ресурсе [docs.microsoft.com](https://docs.microsoft.com/en-us/cpp/standard-library/exception-class?view=vs-2019):
 > The constructors exception(const char* const &message) and exception(const char* const &message, int) are Microsoft extensions to the C++ Standard Library.
 
 Все встало на свои места, но мне стало интересно, насколько код `std::exception` разнится у этих компиляторов. Версию от gcc я уже приводил выше, пришло время показать версию MSVC:
@@ -207,4 +207,5 @@ private:
 };
 ...
 ```
-Из-за наличия объекта ` __std_exception_data` MSVC пришлось отказаться от дефолтных реализаций некоторых функций, но в целом видно, что разница не велика.
+
+Из-за наличия объекта `__std_exception_data` MSVC пришлось отказаться от дефолтных реализаций некоторых функций, но в целом видно, что разница не велика.
